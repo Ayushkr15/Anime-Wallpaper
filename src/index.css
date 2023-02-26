@@ -1,0 +1,93 @@
+.homepage {
+  background: url("./pages/Homepage.png") no-repeat center center fixed;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    filter: blur(7px);
+  -webkit-filter: blur(7px);
+}
+
+.content{
+  color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.title{
+ font-family: Electroharmonix;
+ font-size: regular;
+}
+
+.description{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.btn{
+  font-weight: 500;
+  font-size: 20px;
+width: 150px;
+}
+
+
+
+body {
+  background: #252525;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-overflow-scrolling: touch;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-family: Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  margin-left: 80px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+button{
+background-color: #252525 ;
+}
+
+
+img {
+  height: 690px;
+  width: 500px;
+  padding: 35px;
+}
+
+
+.brighten img {
+-webkit-filter: brightness(90%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.brighten img:hover {
+-webkit-filter: brightness(100%);
+}
