@@ -18,9 +18,12 @@ const Homepage = () => {
       </div>
 
       <style jsx>{`
+      body{
+        overflow: hidden;
+      }
         .content {
           width: 100%;
-          height: 100%;
+          /* height: 100%; */
           padding: 2rem;
         }
 
