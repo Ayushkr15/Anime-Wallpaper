@@ -12,11 +12,20 @@ const Homepage = () => {
           <p>Enjoy your free variety collection of anime wallpaper</p>
         </div>
         <a href="/Gallery">
-          <button type="button" class="btn btn-light">
+          <button type="button" className="btn btn-light">
             Start
           </button>
         </a>
       </div>
+      
+      <style jsx>{`
+        @media screen and (max-width: 768px) {
+          .content {
+            width: 80%;
+          }
+        }
+      `}</style>
+    
     </>
   );
 };

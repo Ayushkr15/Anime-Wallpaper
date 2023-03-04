@@ -4,38 +4,33 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    filter: blur(7px);
+  filter: blur(7px);
   -webkit-filter: blur(7px);
 }
 
-.content{
-  color: #fff;
+.content {
   position: absolute;
-  top: 60%;
-  left: 30%;
+  color: white;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
   text-align: center;
 }
 
-.title{
- font-family: Electroharmonix;
- font-size: regular;
+.title {
+  font-family: Electroharmonix;
+  font-size: regular;
 }
 
-.description{
+.description {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
-.btn{
+.btn {
   font-weight: 500;
   font-size: 20px;
-width: 150px;
+  width: 150px;
 }
-
-
 
 body {
   background: #252525;
@@ -45,8 +40,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   -webkit-overflow-scrolling: touch;
-  
+  -webkit-overflow-scrolling: touch;
 }
 
 code {
@@ -67,10 +61,9 @@ h2 {
   color: white;
 }
 
-button{
-background-color: #252525 ;
+button {
+  background-color: #252525;
 }
-
 
 img {
   height: 690px;
@@ -78,16 +71,15 @@ img {
   padding: 35px;
 }
 
-
 .brighten img {
--webkit-filter: brightness(90%);
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
+  -webkit-filter: brightness(90%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .brighten img:hover {
--webkit-filter: brightness(100%);
+  -webkit-filter: brightness(100%);
 }

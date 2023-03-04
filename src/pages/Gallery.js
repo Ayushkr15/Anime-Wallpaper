@@ -2,6 +2,17 @@ import React, { useState, useEffect, useRef } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 
+function Loader() {
+  return (
+    <div className="text-center">
+      <div className="spinner-border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  );
+}
+
+
 function Gallery() {
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -21,7 +32,7 @@ function Gallery() {
       setLoading(false);
     };
     fetchImages();
-  }, [after]);
+  },[after]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -42,7 +53,7 @@ function Gallery() {
         observer.unobserve(loaderRef.current);
       }
     };
-  }, [loading]);
+  },[loading]);
 
   const handleImageLoad = (event, imageUrl) => {
     if (event.target.naturalWidth === 0) {
