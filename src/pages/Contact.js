@@ -1,7 +1,84 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faBehance,
+  faLinkedin,
+  faDiscord,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Contact() {
-  return <h1>Contact Page</h1>;
+  return (
+    <div className="contact-us">
+    
+      <Container>
+        <Col md={12} className="box">
+          <p className="title">
+            Feel free to reach out to us on any of our social media platforms or
+            by email.
+          </p>
+          <div className="social-media">
+            <div className="social-details">
+              <a href="https://twitter.com/Ayushkr15_">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <span>@Ayushkr15_</span>
+            </div>
+            <div className="social-details">
+              <a href="https://github.com/Ayushkr15">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <span>Ayushkr15</span>
+            </div>
+            <div className="social-details">
+              <a href="https://www.linkedin.com/in/ayushkr13/">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>{" "}
+              <span> Ayush Kumar Sinha</span>
+            </div>
+
+            <div className="social-details">
+              <a href="https://discord.com/">
+                <FontAwesomeIcon icon={faDiscord} />
+              </a>{" "}
+              <span> LazySenpai#3624</span>
+            </div>
+          </div>
+        
+          <div className="social-media">
+            <div className="social-details">
+              <a href="https://twitter.com/HasChan123">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <span>@HasChan123</span>
+            </div>
+            <div className="social-details">
+              <a href="https://www.behance.net/hasnaamahmoud0MK">
+                <FontAwesomeIcon icon={faBehance} />
+              </a>
+              <span>Hasnaa Mahmoud</span>
+            </div>
+            <div className="social-details">
+              <a href="https://www.linkedin.com/in/hasnaa-mahmoud-5151b5244/">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a><span> Hasnaa Mahmoud</span>
+            </div>
+
+            <div className="social-details">
+              <a href="https://discord.com/">
+                <FontAwesomeIcon icon={faDiscord} />
+              </a>
+              <span> Hasnaa#4644</span>
+            </div>
+          </div>
+        </Col>
+      </Container>
+    </div>
+  );
 }
 
 export default Contact;

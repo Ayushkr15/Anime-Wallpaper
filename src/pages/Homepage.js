@@ -5,7 +5,7 @@ const Homepage = () => {
     <>
       <div className="homepage"></div>
       <div className="content">
-        <div className="title">
+        <div className="title-homepage">
           <h1>Anime Wallpaper</h1>
         </div>
         <div className="description">
