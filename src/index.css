@@ -115,57 +115,32 @@ img {
   transform: translateY(-5px);
 }
 
-
+/* Contact page CSS  */
 .box {
-  background-color: #f2f2f2;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 50px;
+  padding: 50px;
 }
 
-.social-details{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 20px;
-  margin-left: 50px;
-  font-weight: 700;
 }
-
-
 
 .social-media {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+  flex-direction: column;
 }
 
-.social-media a {
+.social-details {
+  color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background-color: #007bff;
-  color: #ffffff;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
-}
-
-.social-media a:hover {
-  background-color: #0062;
-}
-
-
-.title{
-  font-family: Geneva, Verdana, sans-serif;
-  margin-top: 20px;
-  margin-left: 80px;
-  padding: 20px;
-  text-align: center;
-  color: Black;
-  font-weight: 900;
+  margin-bottom: 10px;
   font-size: 20px;
 }
+
+.social-details a {
+  margin-right: 10px;
+}
+
