@@ -4,13 +4,13 @@ const Homepage = () => {
   return (
     <>
       <div className="homepage"></div>
-      <div className="content">
-      <h1> Anime wallpaper</h1>
-        <div className="description">
+      <div className="content d-flex flex-column justify-content-center align-items-center">
+        <h2 className="text-center">Anime Wallpaper</h2>
+        <span className="text-center">
+          Enjoy your free variety collection of anime wallpaper
+        </span>
 
-          <p>Enjoy your free variety collection of anime wallpaper</p>
-        </div>
-        <a href="/Gallery">
+        <a href="/Gallery" class="start-btn">
           <button type="button" className="btn btn-light">
             Start
           </button>
@@ -18,9 +18,15 @@ const Homepage = () => {
       </div>
 
       <style jsx>{`
+        .content {
+          width: 100%;
+          height: 100%;
+          padding: 2rem;
+        }
+
         @media screen and (max-width: 768px) {
           .content {
-            width: 100%;
+            text-align: center;
           }
         }
       `}</style>
