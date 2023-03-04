@@ -49,7 +49,7 @@ function Contact() {
             </div>
           </div>
         
-          <div className="social-media">
+          {/* <div className="social-media">
             <div className="social-details">
               <a href="https://twitter.com/HasChan123">
                 <FontAwesomeIcon icon={faTwitter} />
@@ -74,7 +74,7 @@ function Contact() {
               </a>
               <span> Hasnaa#4644</span>
             </div>
-          </div>
+          </div> */}
         </Col>
       </Container>
     </div>
