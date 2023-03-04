@@ -5,10 +5,12 @@ function About() {
   return (
     <div>
       <Container className="my-5">
+        <div className="about-title justify-content-center align-items-center">
+          <h1 className="text-center">About Us</h1>
+        </div>
         <Row>
           <Col md="8" className="mx-auto">
             <div className="abt animated-hover">
-              <h1 className="text-center mb-4">About Us</h1>
               <p className="lead text-center mb-5">
                 Welcome to our anime wallpaper website! We are a team of anime
                 enthusiasts who love to share our favorite anime wallpapers with
