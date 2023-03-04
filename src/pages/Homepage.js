@@ -4,16 +4,10 @@ const Homepage = () => {
   return (
     <>
       <div className="homepage"></div>
-      <div className="content container">
-        <div class="row">
-          <div class="col-md-6 offset-md-3">
-            <div class="d-flex align-items-center text-center">
-              <h1 class="display-8">Anime Wallpaper</h1>
-            </div>
-          </div>
-        </div>
-
+      <div className="content">
+      <h1> Anime wallpaper</h1>
         <div className="description">
+
           <p>Enjoy your free variety collection of anime wallpaper</p>
         </div>
         <a href="/Gallery">
