@@ -6,7 +6,7 @@ const Homepage = () => {
       <div className="homepage"></div>
       <div className="content">
         <div className="title-homepage">
-          <h1>Anime Wallpaper</h1>
+          <h1>Ayush Wallpaper</h1>
         </div>
         <div className="description">
           <p>Enjoy your free variety collection of anime wallpaper</p>
