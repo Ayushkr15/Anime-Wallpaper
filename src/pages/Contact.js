@@ -18,8 +18,7 @@ function Contact() {
       <Container>
         <Col md={12} className="box">
           <p className="title">
-            Feel free to reach out to us on any of our social media platforms or
-            by email.
+            Feel free to reach out to us on any of our social media platforms
           </p>
           <div className="social-media">
             <div className="social-details">
