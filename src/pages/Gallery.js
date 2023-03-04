@@ -56,7 +56,6 @@ function Gallery() {
     const downloadLink = document.createElement("a");
     downloadLink.href = imageUrl;
     downloadLink.download = imageUrl.split("/").pop();
-    downloadLink.target = "_blank";
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
@@ -64,7 +63,7 @@ function Gallery() {
 
   return (
     <>
-      <div class="d-flex justify-content-center align-items-center d-inline-block bg-warning p-2">
+      <div class="d-flex justify-content-center align-items-center d-inline-block bg-warning p-2 mb-4">
         <h1 className="justify-content-center align-items-center m-2">
           Gallery
         </h1>
